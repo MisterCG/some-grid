@@ -1,0 +1,12 @@
+
+
+.basic-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    
+    /* auto-fill ajuste automático con respecto al espacio disponible*/
+    /* valor minimo 240px y max 1fr */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+
+    gap: 1rem;
+}
